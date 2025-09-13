@@ -1,0 +1,296 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+body {
+  background-color: black;
+  background-image: url(images/checker.png);
+  background-repeat: repeat;
+  color: white;
+  font-family: Arial;
+  animation: tween 100s linear infinite;
+}
+
+h1 {
+  color: teal;
+  font-family: Arial;
+  font-weight: bold;
+}
+
+h2 {
+  color: white;
+  background-color: teal;
+  font-family: Arial;
+  border-radius: 15px;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-image: linear-gradient(LightSeaGreen, teal);
+}
+
+h6 {
+  color: grey;
+}
+
+p {
+  color: white;
+}
+
+ul {
+  background-color: grey;
+}
+
+div {
+  overflow: auto;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  text-align: center;
+}
+
+marquee {
+  font-style: italic;
+}
+
+nav {
+  background-image: linear-gradient(gray, white, gray);
+  background-repeat: repeat;
+  color: black;
+  background-color: silver;
+  font-family: Arial;
+  padding: 10px;
+  border-width: 5px 5px 5px 5px;
+  border-radius: 25px 25px 25px 25px;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: bold;
+}
+
+.title {
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.header {
+  background-image: url(images/ascent.jpg);
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center center, center center;
+  transition: transform 2s;
+  border-radius: 25px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.widget {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 600px) {
+  .main {
+    flex-direction: row;
+  }
+
+  .left {
+    flex: 1;
+  }
+
+  .right {
+    flex: 2;
+  } 
+}
+
+
+/*Infobox */
+
+.topbar {
+  background-image: linear-gradient(black, darkblue);
+  background-repeat: repeat;
+  background-color: darkblue;
+  border-style: hidden;
+  border-width: 2px;
+  border-radius: 25px 25px 0 0; 
+  color: white;
+  font-family: Verdana;
+  height: 25px;
+  padding: 5px 0 0 0;
+  font-weight: bold;
+  text-indent: 15px;
+  
+  min-width: 160px;
+  
+  margin: 0 auto;
+  text-align: left;
+  max-width: 1030px;
+}
+    
+.infobox {
+  background-color: black;
+  border-style: solid;
+  border-color: silver;
+  border-width: 0 1px 1px 1px;
+  border-radius: 0 0 25px 25px;
+  height: auto;
+  padding: 15px;
+  color: white;
+  font-family: Verdana;
+  
+  min-width: 130px;
+  
+  justify-content: flex-start;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 1000px;
+}
+    
+.container {
+  background-color: black;
+  border-style: solid;
+  border-color: silver;
+  border-width: 5px;
+  border-radius: 5px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  margin: 0 auto;
+  width: 90%;
+  padding: 10px;
+}
+    
+.container2 {
+  background-color: black;
+  border-style: solid;
+  border-color: silver;
+  border-width: 5px;
+  border-radius: 5px;
+  height: auto;
+  align-items: center;
+  overflow: auto;
+  text-align: left;
+  margin: 0 auto;
+  width: 90%;
+  padding: 10px;
+}
+
+.textbox {
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  padding: 10px;
+}
+    
+.aboutme {
+  width: 20%;
+  height:auto;
+  display:block;
+  background-image: url(images/aboutme.png);
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center center, center center;
+  transition: transform .5s;
+}
+
+.aboutme:hover {
+   background-image: url('images/aboutmehover.png');
+    transform:scale(1.2);
+}
+        
+.aboutme:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+    
+.projects {
+  width: 20%;
+  height:auto;
+  display:block;
+  background-image: url(images/projects.png);
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center center, center center;
+  transition: transform .5s;
+}
+
+.projects:hover {
+  background-image: url('images/projectshover.png');
+  transform:scale(1.2);
+}
+      
+        
+.projects:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+.gallery {
+  width: 20%;
+  height:auto;
+  display:block;
+  background-image: url(images/gallery.png);
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center center, center center;
+  transition: transform .5s;
+}
+
+.gallery:hover {
+   background-image: url('images/galleryhover.png');
+   transform:scale(1.2);
+}
+        
+.gallery:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+.links {
+  width: 20%;
+  height:auto;
+  display:block;
+  background-image: url(images/greenieguest.png);
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center center, center center;
+  transition: transform .5s;
+}
+
+.links:hover {
+  background-image: url('images/links.png');
+  transform:scale(1.2);
+}
+        
+.links:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+    
+.header:hover{
+  transform:scale(1.2);
+}
+
+@keyframes tween {
+  from {background-position: bottom left;}
+  to {background-position: top right;}
+}
