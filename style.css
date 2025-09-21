@@ -8,7 +8,7 @@ body {
   background-repeat: repeat;
   color: white;
   font-family: Arial;
-  animation: tween 100s linear infinite;
+  animation: tween 200s linear infinite;
 }
 
 h1 {
@@ -70,6 +70,19 @@ nav {
   margin: 0 auto;
   text-align: center;
   font-weight: bold;
+  font-style: italic;
+}
+
+button {
+  background-color: teal;
+  color: #fff;
+  padding: 5px 10px;
+  border-width: 2px 2px 2px 2px;
+  border-radius: 15px 15px 15px 15px;
+  cursor: pointer;
+  transition: background-color .3s ease;
+  font-style: italic;
+  text-shadow: 1px 1px 2px gray;
 }
 
 .title {
@@ -99,6 +112,13 @@ nav {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.funSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 
 @media (min-width: 600px) {
@@ -158,6 +178,8 @@ nav {
   max-width: 1000px;
 }
     
+/* Gallery / Link Textbox */
+    
 .container {
   background-color: black;
   border-style: solid;
@@ -172,7 +194,22 @@ nav {
   margin: 0 auto;
   width: 90%;
   padding: 10px;
+  gap: 20px;
 }
+
+.container img {
+  flex-shrink: 0;
+}
+
+.textbox {
+  flex-grow: 1;
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+/* About Me / Other List Textbox */
     
 .container2 {
   background-color: black;
@@ -188,13 +225,6 @@ nav {
   width: 90%;
   padding: 10px;
 }
-
-.textbox {
-  width: auto;
-  height: auto;
-  margin: 0 auto;
-  padding: 10px;
-}
     
 .aboutme {
   width: 20%;
@@ -208,8 +238,8 @@ nav {
 }
 
 .aboutme:hover {
-   background-image: url('images/aboutmehover.png');
-    transform:scale(1.2);
+  background-image: url('images/aboutmehover.png');
+  transform:scale(1.2);
 }
         
 .aboutme:after {
@@ -287,7 +317,7 @@ nav {
 }
     
 .header:hover{
-  transform:scale(1.2);
+  transform:scale(1.1);
 }
 
 @keyframes tween {
