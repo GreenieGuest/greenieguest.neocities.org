@@ -74,7 +74,7 @@ nav {
 }
 
 button {
-  background-color: teal;
+  background-image: linear-gradient(LightSeaGreen, teal);
   color: #fff;
   padding: 5px 10px;
   border-width: 2px 2px 2px 2px;
