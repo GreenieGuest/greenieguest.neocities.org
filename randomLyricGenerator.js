@@ -43,6 +43,12 @@ var lyrics = [
         "<p>\"Well your mind is there but your heart is out to lunch / And it's all because your philosophy's just a hunch\"</p><h6>-Abandoned Pools, 'Never'</h6>",
         "<p>\"And the frightening facts we've been facing our backs to for so long now / Are begging for eyes to bear witness to lies and indifference\"</p><h6>-Dashboard Confessional, 'Turpentine Chaser'</h6>",
         "<p>\"Didn't have to say my name / Ignite my circuits, start a flame\"</p><h6>-Steam Powered Giraffe, 'Honeybee'</h6>",
+        "<p>\"The glove compartment is inaccurately named / And everybody knows it / So I'm proposing a swift orderly change...\"</p><h6>-Death Cab for Cutie, 'Title and Registration'</h6>",
+        "<p>\"But there's no blame for how our love did slowly fade / And now that it's gone, it's like it wasn't there at all\"</p><h6>-Death Cab for Cutie, 'Title and Registration'</h6>",
+        "<p>\"And when I see you / I really see you upside down / But my brain knows better / It picks you up and turns you around\"</p><h6>-Death Cab for Cutie, 'A Lack of Color'</h6>",
+        "<p>\"'Cause at night the sun in retreat / Made the skyline look like crooked teeth / In the mouth of a man who was devouring us both\"</p><h6>-Death Cab for Cutie, 'Crooked Teeth'</h6>",
+        "<p>\"And I'll sit and wonder / Of every love that could have been / If I'd only thought of something charming to say\"</p><h6>-Death Cab for Cutie, 'The Sound of Settling'</h6>",
+        "<p>\"Take my hand, knot your fingers through mine / And we'll walk from this dark room for the last time\"</p><h6>-Snow Patrol, 'Open Your Eyes'</h6>",
       ];
       
       document.getElementById('randomLyricGenerator').innerHTML = lyrics[Math.floor(Math.random()*lyrics.length)];
