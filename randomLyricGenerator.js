@@ -49,6 +49,8 @@ var lyrics = [
         "<p>\"'Cause at night the sun in retreat / Made the skyline look like crooked teeth / In the mouth of a man who was devouring us both\"</p><h6>-Death Cab for Cutie, 'Crooked Teeth'</h6>",
         "<p>\"And I'll sit and wonder / Of every love that could have been / If I'd only thought of something charming to say\"</p><h6>-Death Cab for Cutie, 'The Sound of Settling'</h6>",
         "<p>\"Take my hand, knot your fingers through mine / And we'll walk from this dark room for the last time\"</p><h6>-Snow Patrol, 'Open Your Eyes'</h6>",
+        "<p>\"Would you look now / Unto this pit of me on the ground? / And you wander through these / To climb these grapevines\"</p><h6>-Globus, 'Orchard of Mines'</h6>",
+        "<p>\"And it seems by the time that I have figured what it's worth / The squeaking of our skin against the steel has gotten worse\"</p><h6>-Death Cab for Cutie, 'Expo '86'</h6>",
       ];
       
       document.getElementById('randomLyricGenerator').innerHTML = lyrics[Math.floor(Math.random()*lyrics.length)];
