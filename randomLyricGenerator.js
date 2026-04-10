@@ -51,6 +51,7 @@ var lyrics = [
         "<p>\"Take my hand, knot your fingers through mine / And we'll walk from this dark room for the last time\"</p><h6>-Snow Patrol, 'Open Your Eyes'</h6>",
         "<p>\"Would you look now / Unto this pit of me on the ground? / And you wander through these / To climb these grapevines\"</p><h6>-Globus, 'Orchard of Mines'</h6>",
         "<p>\"And it seems by the time that I have figured what it's worth / The squeaking of our skin against the steel has gotten worse\"</p><h6>-Death Cab for Cutie, 'Expo '86'</h6>",
+        "<p>\"I need you like fire needs oxygen / I need you like fire needs oxygen\"</p><h6>-Senses Fail, 'Mason's Revenge'</h6>",
       ];
       
       document.getElementById('randomLyricGenerator').innerHTML = lyrics[Math.floor(Math.random()*lyrics.length)];
