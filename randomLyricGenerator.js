@@ -55,6 +55,7 @@ var lyrics = [
         "<p>\"Well, I never saw it coming / I should've started running / A long, long time ago\"</p><h6>-Daughtry, 'Over You'</h6>",
         "<p>\"But if you try to take that from me, well I'll never be the same trainwreck / That I am / And I am what I am what I am what I am / A trainwreck\"</p><h6>-3OH!3, 'Colorado Sunrise'</h6>",
         "<p>\"Don't stress, relax / Let life roll off your backs / Except for death and paying taxes / Everything in life is only for now\"</p><h6>-Avenue Q, 'For Now'</h6>",
+		"<p>\"Some say the devil is dead, the devil is dead, the devil is dead / Some say the devil is dead and buried in Killarney / More say he rose again, more say he rose again, more say he rose again / And joined the British army\"</p><h6>-Derek Warfield & The Young Wolfe Tones, 'Some Say the Devil Is Dead'</h6>",
       ];
       
       document.getElementById('randomLyricGenerator').innerHTML = lyrics[Math.floor(Math.random()*lyrics.length)];
