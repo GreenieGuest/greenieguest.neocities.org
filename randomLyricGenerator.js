@@ -52,6 +52,9 @@ var lyrics = [
         "<p>\"Would you look now / Unto this pit of me on the ground? / And you wander through these / To climb these grapevines\"</p><h6>-Globus, 'Orchard of Mines'</h6>",
         "<p>\"And it seems by the time that I have figured what it's worth / The squeaking of our skin against the steel has gotten worse\"</p><h6>-Death Cab for Cutie, 'Expo '86'</h6>",
         "<p>\"I need you like fire needs oxygen / I need you like fire needs oxygen\"</p><h6>-Senses Fail, 'Mason's Revenge'</h6>",
+        "<p>\"Well, I never saw it coming / I should've started running / A long, long time ago\"</p><h6>-Daughtry, 'Over You'</h6>",
+        "<p>\"But if you try to take that from me, well I'll never be the same trainwreck / That I am / And I am what I am what I am what I am / A trainwreck\"</p><h6>-3OH!3, 'Colorado Sunrise'</h6>",
+        "<p>\"Don't stress, relax / Let life roll off your backs / Except for death and paying taxes / Everything in life is only for now\"</p><h6>-Avenue Q, 'For Now'</h6>",
       ];
       
       document.getElementById('randomLyricGenerator').innerHTML = lyrics[Math.floor(Math.random()*lyrics.length)];
